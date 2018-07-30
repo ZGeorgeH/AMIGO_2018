@@ -27,3 +27,7 @@ V3.0
 4. Change some features for manual controls so that both axes are modified at the same time.
 5. Fixed the crash caused by trying to load non-valid ".txt" files.
 6. Change some of the global variables to private userdata (dot expressions) will change all these variables to userdata in later version.
+
+V3.1
+1. Add a selection of whether plot the data for axis 2 (Some times it is difficult to see if we plot both of them)
+Todo: To remove global variables and handle the exceptions
