@@ -1,0 +1,5 @@
+V2.2
+1. The "Auto_Run_File" function now has only two input, "filename" and "Axis number". The "Time Gap" was originally the third input of this funciton, it is now specified by the first element of vector contained in the "filename" file.
+
+V2.1
+1. Fixed a problem in "regs2_to_dec" function, that it won't read values around 67500 correctly.
