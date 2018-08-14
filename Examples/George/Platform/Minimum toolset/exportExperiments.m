@@ -114,7 +114,7 @@ for iexp=1:nofExp
                 values{iexp}=interp1(timei1,inputs.exps.u{iexp},0:step(iexp):timei1(end));
         end
     end
-    command=[step(iexp),values{iexp}];
+    command=[step(iexp),values{iexp}]; %#ok<NASGU>
     if (nofExp==1)
         save([fileName,'.txt'],'command','-ascii');
     else
