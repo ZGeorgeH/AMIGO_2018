@@ -33,7 +33,5 @@ V3.1
 Todo: To remove global variables and handle the exceptions
 
 V3.2
-1. Use the stairs function to plot the graph;
-2. All the cases which need to redraw the figure, will lead to the same script;
-3. Improve the time control by combining the tic/toc and pause, but need to test;
+1. Use the stairs function to plot the 
 Todo: To remove global variables and handle the exceptions
