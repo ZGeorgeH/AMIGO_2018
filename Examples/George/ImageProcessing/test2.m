@@ -1,6 +1,10 @@
 function test2(filename,rforgaussion,rforclosing)
 warning('off');
-sample=(imread(filename));
+if ischar(filename)
+    sample=(imread(filename));
+else
+    sample=filename;
+end
 if (nargin<3)
     rforclosing=ceil(min(size(sample,1),size(sample,2))/1000);
     if (nargin<2)
@@ -9,7 +13,11 @@ if (nargin<3)
 end
 
 % initial saddle plot
-gsample=rgb2gray(sample);
+if (size(sample,3)>1)
+    gsample=rgb2gray(sample);
+else
+    gsample=sample;
+end
 if (rforgaussion)
     I=imgaussfilt(gsample,rforgaussion);
 else
@@ -38,13 +46,13 @@ sample([1,end],:,:)=[];
 sample(:,[1,end],:)=[];
 bsample=imgaussfilt(sample,sqrt(rforclosing));
 
-fadesample=uint8(double(sample).*repmat(double(255-Ito)/255,1,1,3));
-fadebsample=uint8(double(bsample).*repmat(double(255-Ito)/255,1,1,3));
+fadesample=uint8(double(sample).*repmat(double(255-Ito)/255,1,1,size(sample,3)));
+fadebsample=uint8(double(bsample).*repmat(double(255-Ito)/255,1,1,size(sample,3)));
 figure, imshow([sample,fadesample,fadebsample]);
 
-bIto=~Ito;
+bIto=Ito;
 bisample=sample;
-bisample(repmat(bIto,1,1,3))=0;
-bsample(repmat(bIto,1,1,3))=0;
+bisample(repmat(bIto,1,1,1))=0;
+bsample(repmat(bIto,1,1,1))=0;
 figure, imshow([sample,bisample,bsample]);
 end
