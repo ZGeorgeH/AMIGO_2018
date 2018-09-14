@@ -1,0 +1,151 @@
+Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in AMIGO_check_names (line 24)
+        if isempty(inputs.model.st_names)==1 && inputs.model.n_st>1
+
+Error in AMIGO_check_model (line 205)
+        AMIGO_check_names
+
+Error in AMIGO_SModel (line 84)
+[inputs,results]=AMIGO_check_model(input_file,inputs_def);
+
+Error in MPLacr_in_silico (line 63)
+sim = AMIGO_SModel(inputs);
+
+Error in Run_MPLacr_in_silico_experiment (line 30)
+            MPLacr_in_silico;
