@@ -7,9 +7,10 @@ rngToGetSeed = rng;
 
 totalDuration = 50*60;               % Duration in of the experiment (minutes)
 numLoops=5; % Number of OID loops
+epccNumLoops=numLoops;
 duration = totalDuration/numLoops;   % Duration of each loop (in our case the number is 1)
 stepDuration = 15;                % Duration of each step (minutes). Note that the value passed to the function exceeds the response time, quantified in 80 mins for MPLac,r
-obsfrequency=5;
+obsstep=5;
 
 
 % Write the header information of the .dat file in which the results of
@@ -66,6 +67,9 @@ inputs.exps.exp_y0{1}= [y0];
 inputs.exps.t_f{1}=[];
 inputs.exps.n_s{1}=0;
 inputs.exps.t_s{1}=[];
+
+inputs.exps.data_type='real';      
+inputs.exps.noise_type='homo_var';
 
 inputs.exps.u_interp{1}='step';
 inputs.exps.n_steps{1}=0;

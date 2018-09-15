@@ -1,4 +1,4 @@
-function [y1,u] = OED(inputs,duration,y0,stepDuration)
+function [y1,u,pred] = OED(inputs,duration,y0,stepDuration)
     
     format long g
         
@@ -70,4 +70,5 @@ function [y1,u] = OED(inputs,duration,y0,stepDuration)
     % the initial state for the next loop
     y1=results.sim.states{1}(end,:);
     u=results.oed.u{1};    
+    pred=results.sim.sim_data{1};
 end
