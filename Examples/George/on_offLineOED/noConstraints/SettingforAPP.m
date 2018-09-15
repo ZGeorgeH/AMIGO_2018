@@ -63,12 +63,12 @@ inputs.exps.obs_names{1}=char('Fluorescence');
 inputs.exps.obs{1}= char('Fluorescence = Cit_fluo');
 inputs.exps.exp_y0{1}= [y0];
 
-inputs.exps.t_f{1}=0*duration;
-inputs.exps.n_s{1}=(0*duration)/5 + 1;
-inputs.exps.t_s{1}=0:5:(0*duration);
+inputs.exps.t_f{1}=[];
+inputs.exps.n_s{1}=0;
+inputs.exps.t_s{1}=[];
 
 inputs.exps.u_interp{1}='step';
-inputs.exps.n_steps{1}=(0*duration)/stepDuration;
-inputs.exps.t_con{1}=0:stepDuration:(0*duration);
+inputs.exps.n_steps{1}=0;
+inputs.exps.t_con{1}=[];
 
-inputs.exps.u{1}=results.oed.u{results.oed.n_exp};
+inputs.exps.u{1}=[];
