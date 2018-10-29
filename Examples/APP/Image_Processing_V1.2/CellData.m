@@ -9,7 +9,7 @@ function result= CellData(image)
 % CC:           Connected components of all the cells
 % stats:        table of detailes of Cells
 
-% dege detection based segmentation
+% edge detection based segmentation
 [~,clustered]=edgeFun(imadjust(image));
 image=image(2:end-1,2:end-1);
 
