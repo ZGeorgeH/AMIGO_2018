@@ -12,13 +12,14 @@ function result= CellData(image)
 % edge detection based segmentation
 [~,clustered]=edgeFun(imadjust(image));
 image=image(2:end-1,2:end-1);
+figure; imshowpair(imadjust(clustered),image,'Montage');
 
 % clustering based segmentation
 [I,clustered]=autoCluster2(clustered);
 if (sum(I(:))>0.90*length(image(:)))
     I=~I;
 end
-%imshow(imadjust(clustered));
+figure; imshowpair(imadjust(clustered),imadjust(clustered),'Montage');
 
 % Connected components of all the cells
 CC=bwconncomp(I);
